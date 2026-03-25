@@ -1,6 +1,21 @@
-venv
-log*
-pdfbot.log
+# Python
+__pycache__/
+*.pyc
+
+# Env / secrets
+.env
 config.py
-.idea
-UserData
+
+# Virtual environment
+venv/
+.env/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
